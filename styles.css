@@ -1,0 +1,222 @@
+body {
+  background: white;
+  color: #40514e;
+  margin: 0;
+  font-family: verdana, sans-serif;
+  text-align: center;
+  font-size: 200%;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 10px 0 0 0;
+  width: 5%;
+  color: gray;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+h1 {
+  margin: 2.6rem auto 0 auto;
+  font-size: 10vw;
+  color: #4e9bb0;
+  font-family: "Roboto";
+}
+h2 {
+  color: #4e9bb0;
+  font-size: 5vw;
+  line-height: 2;
+}
+
+h3 {
+  color: #11999e;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #11999e;
+  padding: 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+div {
+  margin: 0;
+}
+
+img {
+  margin: 0;
+}
+
+.btn {
+  font-family: verdana, sans-serif;
+  margin-top: 30px;
+  background-color: #00cc99;
+  border: #11999e;
+}
+
+.btn:hover {
+  background-color: #11999e;
+}
+
+.headshot {
+  border-radius: 100%;
+  width: 10%;
+  margin-top: 25px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountains {
+  width: 100%;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  padding: 50px;
+  width: 75%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skillImage {
+  border: solid;
+  border-radius: 100%;
+  border-width: 5px;
+  border-color: gray;
+  width: 20%;
+  float: left;
+  margin-right: 50px;
+}
+
+.contact-me {
+  margin: 30px;
+  padding: 30px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px 0;
+  font-family: verdana, sans-serif;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0 20px 0;
+}
+
+.heading {
+  position: absolute;
+  width: 100%;
+  top: 12%;
+}
+
+#skillImage1 {
+  width: 80%;
+}
+
+#skillImage2 {
+  border: none;
+  float: right;
+  margin-left: 50px;
+  background-color: #00cc99;
+  width: 80%;
+}
+
+#topContainer {
+  position: relative;
+  background: #eaf6f6;
+}
+
+#subtitle {
+  font-weight: normal;
+  padding-top: 3%;
+}
+
+#android-text {
+  text-align: left;
+}
+
+#android-title {
+  text-align: left;
+}
+
+#html-title {
+  text-align: right;
+}
+
+#html-text {
+  text-align: right;
+}
+.portfolio-button {
+	background:linear-gradient(to bottom, #b06b4e 5%, #b06b4e 100%);
+	background-color:#b06b4e;
+	border-radius:28px;
+	border:1px solid #b06b4e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.portfolio-button:hover {
+	background:linear-gradient(to bottom, #b06b4e 5%, #b06b4e 100%);
+	background-color:#b06b4e;
+}
+
+
+@media (max-width: 575px) {
+  .skillImage {
+    border-width: 5px;
+    border-color: gray;
+    width: 20%;
+    margin: 0px;
+    float: none;
+  }
+
+  #html-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #html-text {
+    text-align: center;
+  }
+
+  .android-image {
+    order: -1;
+  }
+  #android-text {
+    text-align: center;
+  }
+
+  #android-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  #skillImage2 {
+    float: none;
+    margin: 0;
+  }
+}
