@@ -185,6 +185,10 @@ img {
 	background-color:#b06b4e;
 }
 
+.portfolio-title{
+  background-color: #66bfbf;
+}
+
 
 @media (max-width: 575px) {
   .skillImage {
