@@ -51,6 +51,7 @@ div {
 
 img {
   margin: 0;
+  box-shadow: 5px 5px 5px;
 }
 
 .btn {
@@ -127,6 +128,7 @@ img {
   top: 12%;
 }
 
+
 #skillImage1 {
   width: 80%;
 }
@@ -182,7 +184,8 @@ img {
 }
 .portfolio-button:hover {
 	background:linear-gradient(to bottom, #b06b4e 5%, #b06b4e 100%);
-	background-color:#b06b4e;
+	filter: brightness(85%);
+  text-decoration: none;
 }
 
 .portfolio-title{
