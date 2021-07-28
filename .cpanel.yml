@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=klintwales.com/home4/klintwal/www
+    - export DEPLOYPATH=klintwales.com/home4/klintwal/public_html
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp styles.css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
